@@ -20,11 +20,11 @@ void Post(int prelow,int prehigh,int inlow,int inhigh,int postlow,int posthigh){
 	Post(prelow+len+1, prehigh, inlow+len+1, inhigh, postlow+len, posthigh-1);
 }
 
-int main(){
-	while(cin >> pre >> in){
-		int size = pre.size()-1;
-		Post(0, size, 0, size, 0, size);
-		cout<<post<<endl;
-	}
-	return 0;
-}
+//int main(){
+//	while(cin >> pre >> in){
+//		int size = pre.size()-1;
+//		Post(0, size, 0, size, 0, size);
+//		cout<<post<<endl;
+//	}
+//	return 0;
+//}
